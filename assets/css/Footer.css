@@ -1,0 +1,86 @@
+.Footer__portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .div__enlaces,
+  .div__professional,
+  .div__redes-professional {
+    width: 30%; /* 33.33% width para cada uno con espacio entre ellos */
+    margin-bottom: 20px; /* Espacio entre los tres primeros divs */
+    box-sizing: border-box; /* Incluye padding y border en el ancho y alto */
+  }
+
+  .div__menú li{
+    list-style-type: none;
+    
+  }
+
+  .div__menú li a{
+    color: var(--text);
+    line-height: 1.5em;
+    font-size: 0.8em;
+  }
+
+  .div__menú li a:hover {
+    color: #EF3724;
+    font-size: 1em;
+  } 
+
+  .div__professional {
+    margin-left: 0.2em;
+  }
+ 
+
+  .div__redes-professional {
+    margin-left: 1em;
+  }
+
+  .div--titles-footer {
+    border-bottom: 1px solid #7A7A7A; /* Para agregar una línea debajo del h3 */
+    padding-bottom: 7px; 
+    white-space: nowrap;
+  }
+
+  .space {
+    margin-top: 1.5em;
+  }
+  
+  .div__derechos {
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+  }
+
+  .div__derechos p {
+    font-size: 0.8em;
+  }
+
+  .div__derechos a {
+    color: #EF3724;
+    margin-left: 0.5em;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+ 
+
+  .logo-LinkedIn {
+    width: 2.1em;
+    height: 2.2em;
+  }
+  .logo-gitHub {
+    width: 2.1em;
+    height: 2.2em;
+  }
+
+  @media (max-width:950px) {
+    .Footer__portafolio {
+      flex-direction: column;
+      row-gap: 3rem;
+      padding: 2rem;
+      height: auto;
+    }
+   
+  }

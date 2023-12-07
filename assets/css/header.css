@@ -1,0 +1,202 @@
+.header {
+  background-image: url(../img/img\ fondo2.jpg);
+  background-size: cover; 
+  background-position: center; 
+  height: 200px; 
+  text-align: center; 
+  padding: 20px; 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3vh;
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* es para que la imagen se vea tenue y no en su color de origen*/
+
+
+/*Color sobre imagen de fondo para body dark*/
+.header--fondo-sobre-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--fondo-sobre-img); 
+
+
+}
+
+/*Color sobre imagen fondo para body ligth*/ 
+/* .header--fondo-sobre-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--fondo1-sobre-img); 
+} */
+
+
+
+
+.header__h1 b{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  margin: 0px 0px 24px;
+  color: #a01809;
+  
+}
+.header__h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  margin: 0px 0px 24px;
+  z-index: 1;/* es para colocar el texto encima de la opacidad de la imagen*/
+}
+
+.header__h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  margin: 0px 0px 24px;
+  z-index: 1; /* es para colocar el texto encima de la opacidad de la imagen*/
+
+}
+
+.header__h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 28px;
+  z-index: 1; /* es para colocar el texto encima de la opacidad de la imagen*/
+}
+
+.container__div--btn-contact {
+  display: flex; /* Utilizamos display flex para alinear horizontalmente los elementos */
+}
+
+.div--contacto {
+  /* display: inline-block; */
+  padding: 14px 10px;
+  text-decoration: none;
+  background-color: var(--bg-secondary);
+  /* color: var(--text); */
+  border-radius: 15px;
+  height: 4em;
+  z-index: 1;
+  margin-right: 10px;
+
+  
+}
+
+.div--contacto p {
+  color: var(--text);
+  font-weight: bold;
+  margin: 0;
+  
+}
+.div__list {
+  list-style-type: none;
+  display: flex; /* Utilizamos display flex para alinear horizontalmente los elementos */
+  padding: 0; /* Eliminamos el padding predeterminado de la lista */
+}
+
+.div__list--li a img{
+  display: flex;
+  justify-content: center;
+}
+
+.div--subtitles-a {
+  text-decoration: none;
+  display: flex; /* Alinea el contenido del enlace */
+  align-items: center; /* Centra verticalmente el contenido del enlace */
+  color: inherit; 
+}
+/* .div--contact img {
+
+  width: 30px; 
+  height: 30px; 
+  margin-right: 10px; 
+} */
+
+.div--contact-phone {
+  width: 1em;
+  height: 1em;
+  z-index: 1;
+  margin-top: 9px;
+  margin-right: 5px;
+  margin-left: 12px;
+}
+.div--contact-email {
+  width: 4em;
+  height: 4em;
+  z-index: 1;
+  margin-top: -17px;
+  margin-right: 5px;
+}
+.div--contact-WP {
+  width: 2em;
+  height: 2em;
+  z-index: 1;
+  margin-top: 0;
+  margin-left: -3px;
+  margin-right: 5px;
+}
+
+/* .div--contact-download {
+  width: 1.5em;
+  height: 1.5em;
+  z-index: 1;
+  margin-top: 0;
+  margin-left: -3px;
+  margin-right: 5px;
+} */
+
+
+.div--contact .div--contact-WP {
+      width: 30px; 
+      height: 30px; 
+      margin-right: 10px; 
+    }
+
+.div--download {
+  /* display: inline-block; */
+  /* display: flex;
+  justify-content: center; */
+  padding: 14px 10px;
+  text-decoration: none;
+  background-color: var(--bg-secondary);
+  border-radius: 15px;
+  height: 4em;
+  z-index: 1;
+  
+}
+
+.div--download a {
+  /* display: flex; 
+  justify-content: center; 
+  align-items: center;  */
+  color: var(--text);
+  font-weight: bold;
+  margin: 0;
+}
+
+.div--download img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 0.2em;
+  margin-left: 2em;
+  z-index: 1;
+}
+
+
+
+
+

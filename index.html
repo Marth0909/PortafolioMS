@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Martha Sánchez</title>
+  <link rel="shortcut icon" href="./assets/img/portafolio.png" type="image/x-icon">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/navMenú.css">
+  <link rel="stylesheet" href="./assets/css/aboutMe.css">
+  <link rel="stylesheet" href="./assets/css/technologies.css">
+  <link rel="stylesheet" href="./assets/css/projectsPerson.css">
+  <link rel="stylesheet" href="./assets/css/reviews.css">
+  <link rel="stylesheet" href="./assets/css/contactMe.css">
+  <link rel="stylesheet" href="./assets/css/Footer.css">
+
+
+  <link rel="stylesheet" href="./assets/css/form.css">
+  
+  
+  
+  
+  <meta name="author" content="Martha Sánchez">
+  <meta name="description"
+    content="Desarrollador Full Stack, especializado en construcción de interfaces de usuarios con React y creación de API Rest con Node.js">
+
+  <meta name="keywords"
+    content="Full Stack Developer, Desarrollador Full Stack,JavaScript, CSS,HTML, REACT,GIT, Node.js, Express, SQL, Postgres, programodor con experiencia, web Developer">
+
+  <!-- Open Grap Protocol ( OGP) , es un conjunnto de etiquetas que nos permiten controlar mejor como compartimos nuestras paginas en redes sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gabriel Martinez. Full Stack Web Developer">
+  <meta property="og:description"
+    content="Desarrollador Full Stack, especializado en construcción de interfaces de usuarios con React y creación de API Rest con Node.js #FullStackDevelopers #DesarrolladorWeb #developers">
+  <meta property="og:url" content="URL_DEL_PORTAFOLIO">
+  <meta property="og:image" content="URL_DE_LA_IMAGEN">
+
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+
+
+</head>
+
+<body class="body body--ligth body--dark">
+
+  <div id="progress"></div>
+
+  <nav class="nav">
+    <span id="menu" class="material-symbols-outlined">
+      menu
+    </span>
+
+    <div class="nav--menu nav--transalate">
+
+      <ul class="nav__ul">
+
+        <li class="nav__li" id="changeLanguageBtn">
+          <span class=" material-symbols-outlined">
+            <!-- < id="btn-translate" class=" btn material-symbols-outlined"> -->
+            translate
+          </span>
+        </li>
+        <li class="nav__li" id="toggleModeBtn">
+          <span id="modeText" class="material-symbols-outlined" >
+            <!-- dark_mode -->
+            light_mode
+          </span>
+        </li>
+
+      </ul>
+
+      <ul class="nav__ul">
+        <li class="nav__li"><a href="#home" data-translate-en="Home" data-translate-es="Inicio">Inicio</a></li>
+        <li class="nav__li"><a href="#aboutMe" data-translate-en="About Me" data-translate-es="Sobre mí">Sobre mí</a>
+        </li>
+        <li class="nav__li"><a href="#technologies" data-translate-en="Technologies" data-translate-es="Tecnologías"
+            >Tecnologías</a></li>
+        <li class="nav__li"><a href="#proyects" data-translate-en="Proyects" data-translate-es="Proyectos">Proyectos</a>
+        </li>
+        <li class="nav__li"><a href="#reviews" data-translate-en="Reviews" data-translate-es="Reseñas">Reseñas</a></li>
+        <li class="nav__li"><a href="#contacMe" data-translate-en="Contac Me" data-translate-es="Contáctame">Contáctame</a>
+        </li>
+      </ul>
+
+    </div>
+
+    
+  </nav>
+
+  <header class="header header--fondo-sobre-img" id="home">
+    <h3 class="header__h3" data-translate-en="Welcome" data-translate-es="Bienvenido (a)">Bienvenido (a)</h3>
+    <h1 class="header__h1" data-translate-en="To the profile of Martha Sanchez" data-translate-es="Al perfil de Martha">Al perfil de <b>Martha</b> Sánchez</h1>
+    <h2 class="header__h2" data-translate-en="Full Stack Web Developer" data-translate-es="Desarrolladora web FullStack">Desarrolladora web FullStack</h2>
+
+    <div class="container__div--btn-contact">
+      <div class="div--contacto">
+        <!-- <p><b data-translate-en="Contact Me" data-translate-es="Contáctame">Contáctame</b></p> -->
+        <a id="contactMeBtn"><b data-translate-en="Contact Me" data-translate-es="Contáctame">Contáctame</b></a>
+        <ul class="div__list">
+        
+         <li class="div__list--li"><a class="div--subtitles-a" href="https://wa.me/+522281591255?text=tu%20%20mensaje" target="_blank"><img class="div--contact-WP" src="./assets/img/logo whatsapp.png"></a></li>
+         <li><a class="div--subtitles-a" href="tel:+522281591255"><img class="div--contact-phone" src="./assets/img/log teléfono.png"></a></li>
+         <li><a class="div--subtitles-a" href="mailto:mart09san@gmail.com"><img class="div--contact-email" src="./assets/img/logo email.png"></a></li>
+
+        </ul>
+      </div>
+      <div class="div--download">
+        <a class="div--download-a" download href="./assets/cv/cv ESP ejm.png" data-translate-es="Descargar CV" data-translate-en="
+        Download CV" id="downloadCV">Descargar CV<img src="./assets/img/descargarcv.png"></a>
+      
+      </div>
+   </div>
+  </header>
+  
+  <main class="main">
+    <section id="aboutMe" class="section">
+      <h2 class="section__h2" data-translate-en="About Me" data-translate-es="Sobre Mí">Sobre Mí</h2>
+      <p class="section__p"
+      data-translate-en="I am an enthusiastic and highly committed web developer, with a proactive and service-oriented attitude, I am focused on providing quality web solutions that exceed client expectations."
+      data-translate-es="Soy una desarrolladora web entusiasta y altamente comprometida,con una actitud proactiva y orientada al servicio, estoy orientada a brindar soluciones web de calidad que superen las expectativas del cliente.">
+      Soy una desarrolladora web entusiasta y altamente comprometida,con una actitud proactiva y orientada al servicio, estoy orientada a brindar soluciones web de calidad que superen las expectativas del cliente.
+    </p>
+    </section>
+
+    <section id="aboutMe" class="section--h3-distint">
+      <h3 class="section__h3" data-translate-en="What distinguishes me?" data-translate-es="¿Qué me hace único?">¿Qué me
+        hace único?</h3>
+      <ul class="section__ul">
+        <li class="section__li">
+          <strong data-translate-en="Adaptability" data-translate-es="Adaptabilidad">Adaptabilidad</strong>
+          <span data-translate-en="Adapt quickly to changes in the technological landscape and work environment."
+            data-translate-es="Adaptarme rápidamente a los cambios en el panorama tecnológico y ambiente laboral.">
+            Adaptarme rápidamente a los cambios en el panorama tecnológico y ambiente laboral.
+          </span>
+        </li>
+        <li class="section__li">
+          <strong data-translate-en="Self-learning and continuous development" data-translate-es="Autoaprendizaje y Desarrollo Continuo">Autoaprendizaje y Desarrollo Continuo</strong>
+          <span data-translate-en="learn self-taught to keep up to date with the latest trends. I am constantly exploring new technologies to improve and apply that knowledge effectively
+           in my projects."
+            data-translate-es=" Aprender de forma autodidacta para mantemerme actualizada con las últimas tendencias. Estoy constantemente explorando nuevas tecnologías para mejorar y 
+            aplicar esos conocimientos de manera efectiva en mis proyectos.">
+            Aprender de forma autodidacta para mantemerme actualizada con las últimas tendencias. Estoy constantemente explorando nuevas tecnologías para mejorar y aplicar 
+            esos conocimientos de manera efectiva en mis proyectos.
+          </span>
+        </li>
+        <li class="section__li">
+          <strong data-translate-en="Communication" data-translate-es="Compromiso">Comunicación</strong>
+          <span
+            data-translate-en="My ability to actively listen and express ideas clearly has enabled collaborative teamwork and excellent customer service.."
+            data-translate-es="Mi capacidad para escuchar activamente y expresar ideas de manera clara ha permitido la colaboración del 
+            trabajo en equipo y en la excelente atención y servicio al cliente..">
+            Mi capacidad para escuchar activamente y expresar ideas de manera clara ha permitido la colaboración del trabajo en equipo y 
+            en la excelente atención y servicio al cliente.
+          </span>
+        </li>
+        <li class="section__li">
+          <strong data-translate-en="Problem resolution" data-translate-es="Resolución de Problemas">Resolución de problemas</strong>
+          <span data-translate-en="I face challenges with a proactive and creative mentality and attitude, identifying effective and efficient solutions."
+            data-translate-es="Enfrento los desafíos con una mentalidad y actitud  proactiva y creativa,identificando soluciones efectivas y eficaces.">
+            Enfrento los desafíos con una mentalidad y actitud  proactiva y creativa,identificando soluciones efectivas y eficaces.
+          </span>
+        </li>
+      </ul>
+    </section>
+    
+    <section id="technologies" class="section--techno">
+      <h2 class="section__h2" data-translate-en="Technologies" data-translate-es="Tecnologías">Tecnologías</h2>
+      <div class="tech-cards">
+        <!-- HTML Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="html"><img class="tech--img-html" src="./assets/img/logo_html5.png" alt="HTML 5"></span>
+          <span class="tech-card__back">
+            HTML 5</span>
+        </article>
+        <!-- CSS Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="css"><img class="tech--img-CSS3" src="./assets/img/logo_css3.png" alt="CSS3"></span>
+          <span class="tech-card__back">
+            CSS3</span>
+        </article>
+        <!-- JavaScript Card --> 
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="javascript"><img class="tech--img-js" src="./assets/img/logo_Javascript.png" alt="JS"></span>
+          <span class="tech-card__back">
+            JavaScript</span>
+        </article>
+        <!-- Git Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="git"><img class="tech--img-gitLab" src="./assets/img/Git Lab logo.jpg" alt="Git"></span>
+          <span class="tech-card__back">
+            GitLab</span>
+        </article>
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="git"><img class="tech--img-gitHub" src="./assets/img/GitHub.png" alt="GitHub"></span>
+          <span class="tech-card__back">
+            GitHub</span>
+        </article>
+        <!-- React Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="react"><img class="tech--img-React" src="./assets/img/React.png" alt="React"></span>
+          <span class="tech-card__back">
+            React</span>
+        </article>
+        <!-- Node.js Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="node"><img class="tech--img-node-js" src="./assets/img/node js.jpg" alt="node js"></span>
+          <span class="tech-card__back">
+            node js</span>
+        </article>
+        <!-- Figma Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="figma"><img class="tech--img-Figma" src="./assets/img/Figma logo.png" alt="node js"></span>
+          <span class="tech-card__back">
+            Figma</span>
+        </article>
+      </div>
+    </section>
+    <section id="projects" class="section section--projects">
+      <h2 class="section__h2" data-translate-es="Proyectos" data-translate-en="Projects">Proyectos</h2>
+      <article class='article'>
+
+        <button class='article__button left'>
+          <i class='bx bx-left-arrow-alt'></i>
+        </button>
+
+        <ul class='article__ul' id="conteiner_projects">
+          <!-- aqui se insertaran los li -->
+        </ul>
+
+        <button class="article__button rigth">
+          <i class='bx bx-right-arrow-alt'></i>
+        </button>
+
+      </article>
+    </section>
+
+    <section id="reviews" class="section section--reviws ">
+      <h2 data-translate-en="Reviews" data-translate-es="Reseñas" class="section__h2">Reseñas</h2>
+      <ul class="ul--review" id="reviews-list">
+        <!-- aqui insertaremos los li -->
+      </ul>
+    </section>
+
+    <section id="contactMe" class="section">
+      <h2 class="section__h2" id="contactHeader" data-translate-en="Contact Me" data-translate-es="Contáctame">
+        Contáctame</h2>
+      <p data-translate-en="I am available through multiple channels. Choose the one you prefer:"
+        data-translate-es="Estoy disponible a través de múltiples canales. Elige el que prefieras:">Estoy disponible a
+        través de múltiples canales. Elige el que prefieras:</p>
+      <div class="contact-options">
+        <a class="contact-item" href="tel:+55435439">
+          <!-- <i class='icon bx bx-phone'></i> -->
+          <img class="phone-logo" src="./assets/img/log teléfono.png" alt="LLamar por teléfono">
+          <span data-translate-en="Call Me" data-translate-es="Llámame">Llámame</span>
+        </a>
+        <a class="contact-item" href="mailto:mart09san@gmail.com">
+          <img class="logo-email" src="./assets/img/img_logo_email.png" alt="Enviar correo">
+          <!-- <i class='icon bx bxl-gmail'></i> -->
+          <span data-translate-en="Email" data-translate-es="Correo">Correo</span>
+        </a>
+        <a class="contact-item" href="https://wa.me/+544535" target="_blank">
+          <img class="logo-WP" src="./assets/img/logo whatsapp.png" alt="Enviame un whatsapp">
+          <!-- <i class='icon bx bxl-whatsapp'></i> -->
+          <span data-translate-en="Send me a WhatsApp" data-translate-es="Envíame un WhatsApp">WhatsApp</span>
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com/in/martha-sanchez-santoyo/" target="_blank">
+          <img class="logo-LinkedIn" src="./assets/img/images LOGO.png" alt="Contáctame en LinkedIn">
+          <!-- <i class='icon bx bxl-linkedin'></i> -->
+          <span data-translate-en="Write to me on LinkedIn" data-translate-es="Escribeme en LinkedIn">LinkedIn</span>
+        </a>
+        <a class="contact-item" href="https://github.com/Marth0909" target="_blank">
+          <img class="logo-gitHub" src="./assets/img/GitHub.png" alt="GitHub">
+          <!-- <i class='icon bx bxl-github'></i> -->
+          <span data-translate-en="GitHub" data-translate-es="GitHub">GitHub</span>
+        </a>
+      </div>
+    </section>
+
+
+     </main>
+  <footer class="Footer__portafolio">
+
+    <div class="div__enlaces">
+      <h3 class="div--titles-footer">Enlaces de interés</h3>
+      <ul class="div__menú space">
+        <li><a href="#home" data-translate-en="Home" data-translate-es="Inicio">Inicio</a></li>
+        <li><a href="#aboutMe" data-translate-en="About Me" data-translate-es="Sobre mí">Sobre mí</a>
+        </li>
+        <li><a href="#technologies" data-translate-en="Technologies" data-translate-es="Tecnologías"
+            >Tecnologías</a></li>
+        <li><a href="#proyects" data-translate-en="Proyects" data-translate-es="Proyectos">Proyectos</a>
+        </li>
+        <li><a href="#reviews" data-translate-en="Reviews" data-translate-es="Reseñas">Reseñas</a></li>
+        <li><a href="#contacMe" data-translate-en="Contac Me" data-translate-es="Contáctame"
+            >Contáctame</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="div__professional">
+     <h3 class="div--titles-footer data-translate-en="Martha Sánchez" data-translate-es="Martha Sánchez">Martha Sánchez</h3>
+     <p class="div__descripcion space"
+     data-translate-en="I am an enthusiastic and highly committed web developer, with a proactive and service-oriented attitude, I am focused on providing quality web solutions that exceed client expectations."
+     data-translate-es="Soy una desarrolladora web entusiasta y altamente comprometida,con una actitud proactiva y orientada al servicio, estoy orientada a brindar soluciones web de calidad que superen las expectativas del cliente.">
+     Soy una desarrolladora web entusiasta y altamente comprometida,con una actitud proactiva y orientada al servicio, estoy orientada a brindar soluciones web de calidad que superen las expectativas del cliente.
+     </p>
+    </div>
+
+    <div class="div__redes-professional">
+      <h3 class="div--titles-footer data-translate-en="Professional red" data-translate-es="Red profesional">Red profesional</h3>
+      <a href="https://www.linkedin.com/in/martha-sanchez-santoyo/" class="">
+       <img  class="logo-LinkedIn space" src="./assets/img/images LOGO.png " alt="Contáctame en LinkedIn">
+       <a href="https://github.com/Marth0909" class="">
+         <img class="logo-gitHub space" src="./assets/img/GitHub.png" alt="GitHub">
+        </a>
+      </a>
+    </div>
+
+    <div class="div__derechos">
+     <p class="space">Diseño y Programación Web:<a href="#">Martha Sánchez</a> © Copyright 2023</p>
+    </div>
+  </footer>
+
+
+  <dialog id='dialog' class="dialog" style="height: 100px;background-color: green;">
+    <button id="close_button">Close</button>
+    <p>This modal dialog has a groovy backdrop!</p>
+  </dialog>
+ 
+
+
+ <script src="./assets/js/changeTheme.js"></script>
+ <script src="./assets/js/ResponsiveMenú.js" ></script>
+ <script src="./assets/js/changeLanguaje.js"></script>
+ <script src="./assets/js/yearText.js"></script>
+ <script src="./assets/js/promese.js"></script>
+ <script src="./assets/js/asyncAwait.js"></script>
+
+
+ <script src="./assets/js/form.js"></script>
+
+
+</body>
+
+</html>
+
